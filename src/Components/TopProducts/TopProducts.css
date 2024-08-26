@@ -1,0 +1,102 @@
+.top_products {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeee8;
+}
+.top_products_heading {
+  width: 100%;
+}
+.top_products_heading p {
+  margin: 0;
+  padding-top: 45px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  font-size: 20px;
+}
+.food_cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  height: 266px;
+  width: 75%;
+  margin-bottom: 45px;
+}
+.card {
+  width: 20%;
+  background-color: white;
+}
+.card_img {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_details {
+  color: #404d54;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card_details .p1 {
+  font-weight: 500;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+.stars {
+}
+.card_details .p2 {
+  font-weight: 100;
+  font-size: 13px;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+.add_to_cart {
+  background-color: #eebf00;
+  width: 50%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  border-radius: 2px;
+}
+.cart_img {
+  height: 84%;
+
+  width: 16%;
+  padding: 2px;
+}
+.cart_img img {
+  height: 100%;
+  width: 100%;
+}
+.add_to_cart button {
+  height: 89%;
+  width: 75%;
+  border: none;
+  background-color: white;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .food_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 860px;
+  }
+  .card {
+    width: 90%;
+    height: 275px;
+    background-color: white;
+  }
+}

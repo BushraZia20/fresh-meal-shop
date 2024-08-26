@@ -1,0 +1,76 @@
+.hero_page {
+  height: 400px;
+  width: 100%;
+  background-image: url("../../Assets/hero.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 0; /* Remove any margin at the bottom */
+  padding-bottom: 0;
+}
+.straw {
+  height: 276px;
+  align-self: flex-end;
+}
+.hero_text {
+  text-align: justify;
+}
+.hero_p1 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.hero_text h1 {
+  margin: 0;
+}
+.hero_p2 {
+  margin: 0;
+  font-size: 13px;
+}
+.hero_btns {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+.read_more {
+  height: 32px;
+  width: 95px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+}
+.shop_now {
+  height: 32px;
+  width: 95px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero_page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
+    height: 600px;
+  }
+  .hero_text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 20px;
+  }
+  .hero_btns {
+    display: flex;
+    width: 74%;
+    justify-content: space-between;
+  }
+}
